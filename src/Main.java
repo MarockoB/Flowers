@@ -15,9 +15,10 @@ public class Main {
     private static void flower(String bukvi) {
         for (char symbol : bukvi.toCharArray()) {
             switch (symbol) {
-                case 'G': geran(); break;
+                case 'G': geran();  break;
                 case 'C': krokus(); break;
                 case 'V': fialka(); break;
+
                 default: System.out.println("Сбой программы");
             }
         }
